@@ -24,22 +24,23 @@ O arquivo de testes `login.cy.js` inclui dois cenários principais:
 - [Node.js](https://nodejs.org/) instalado
 - [Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress) instalado no projeto:
 
-```bash
-npm install cypress --save-dev
+ npm install cypress --save-dev
 
+🧑‍💻 Projeto desenvolvido para fins de estudo com automação de testes em aplicações web usando Cypress.
+
+```bash
 
 ## Como Executar os Testes
 
-*Clone o repositório:*
+###Clone o repositório:
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/brumass/primeiros-passos-cypress.git
+cd primeiros-passos-cypress.git
 
-*Abra o Cypress:*
+###Abra o Cypress:
 
 npx cypress open
-Na interface do Cypress, clique no arquivo orangehrm.cy.js para executar os testes.
+Na interface do Cypress, clique no arquivo login.cy.js para executar os testes.
 
-🧑‍💻 Autor
-Projeto desenvolvido para fins de estudo com automação de testes em aplicações web usando Cypress.
+
 
