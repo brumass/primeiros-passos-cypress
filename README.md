@@ -28,7 +28,6 @@ O arquivo de testes `login.cy.js` inclui dois cenários principais:
 
  npm install cypress --save-dev
 
-🧑‍💻 Projeto desenvolvido para fins de estudo com automação de testes em aplicações web usando Cypress.
 
 ```bash
 
@@ -44,5 +43,5 @@ cd primeiros-passos-cypress.git
 npx cypress open
 Na interface do Cypress, clique no arquivo login.cy.js para executar os testes.
 
-
-
+```
+🧑‍💻 Projeto desenvolvido para fins de estudo com automação de testes em aplicações web usando Cypress.
