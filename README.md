@@ -6,19 +6,21 @@ Este projeto contém testes automatizados utilizando o framework [Cypress](https
 
 O arquivo de testes `login.cy.js` inclui dois cenários principais:
 
-### ✅ Login com Sucesso
-- Acessa a página de login do OrangeHRM.
-- Insere as credenciais válidas:  
-  - **Usuário:** Admin  
-  - **Senha:** admin123
-- Verifica o redirecionamento para o painel principal (`/dashboard/index`).
-- Confirma que o título **Dashboard** está visível na tela.
+### ✅ Cenário: Login com Sucesso
+- Dado que o usuário acessa a página de login do OrangeHRM
+- Quando o usuário informa o nome de usuário "Admin"
+- E  informa a senha "admin123"
+- E  clica no botão de login
+- Então o sistema deve redirecionar para a página "/web/index.php/dashboard/index"
+- E deve exibir o título "Dashboard" na tela
 
-### ❌ Login com Falha
-- Acessa a página de login do OrangeHRM.
-- Insere credenciais inválidas.
-- Verifica que uma mensagem de erro (alerta) é exibida.
-
+### ❌ Cenário: Login com Falha
+- Dado que o usuário acessa a página de login do OrangeHRM
+- Quando o usuário informa o nome de usuário "teste"
+- E informa a senha "teste"
+- E clica no botão de login
+- Então o sistema deve exibir uma mensagem "Invalid credentials"
+  
 ## Pré-requisitos
 
 - [Node.js](https://nodejs.org/) instalado
